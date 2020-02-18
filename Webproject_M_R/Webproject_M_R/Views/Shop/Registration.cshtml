@@ -1,0 +1,77 @@
+﻿@model Webproject_M_R.Models.User
+
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2>Registrierung</h2>
+
+@using (Html.BeginForm("registration", "shop", FormMethod.Post))
+{
+
+
+    <table>
+   
+        <tbody>
+            <tr>
+                <td>@Html.LabelFor(u => u.Firstname, "Firstname: ")</td>
+                <td>@Html.TextBoxFor(u => u.Firstname)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(u => u.Lastname, "Lastname: ")</td>
+                <td>
+                    @Html.TextBoxFor(u => u.Lastname, new { required = "required" })<br />
+                <span class="errorform">@Html.ValidationMessageFor(u => u.Lastname)</span>
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(u => u.Gender, "Gender: ")</td>
+            <td>
+                @Html.EnumDropDownListFor(u => u.Gender, new { required = "required" })<br />
+                <span class="errorform">@Html.ValidationMessageFor(u => u.Gender)</span>
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(u => u.Birthdate, "Birthdate: ")</td>
+            <td>@Html.TextBoxFor(u => u.Birthdate, new { Type = "date" })</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(u => u.Username, "Username: ")</td>
+            <td>
+                @Html.TextBoxFor(u => u.Username, new { required = "required" })<br />
+                <span class="errorform">@Html.ValidationMessageFor(u => u.Username)</span>
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(u => u.Password, "Password: ")</td>
+            <td>
+                @Html.PasswordFor(u => u.Password, new { required = "required" })<br />
+                <span class="errorform"> @Html.ValidationMessageFor(u => u.Password)</span>
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(u => u.Password2, "repeat Password: ")</td>
+            <td>
+                @Html.PasswordFor(u => u.Password2, new { required = "required" })<br />
+                <span class="errorform">@Html.ValidationMessageFor(u => u.Password2)</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align:center">
+                <input type="submit" value="submit" id="btnSubmit" />
+                <input type="reset" value="abort" id="btnReset" />
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">* are required fields</td>
+        </tr>
+    </tfoot>
+
+
+</table>
+}
+
+

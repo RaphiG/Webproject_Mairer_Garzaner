@@ -127,9 +127,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ShopController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +140,24 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\austin_rivers.png" />
+    <Content Include="Content\images\ben_mclemore.png" />
+    <Content Include="Content\images\chris_clemons.png" />
+    <Content Include="Content\images\clint_capela.jpg" />
+    <Content Include="Content\images\danuel_house.png" />
+    <Content Include="Content\images\eric_gordon.png" />
+    <Content Include="Content\images\gerald_green.png" />
+    <Content Include="Content\images\isaiah_hartenstein.png" />
+    <Content Include="Content\images\james_harden.png" />
+    <Content Include="Content\images\michael_frazier.png" />
+    <Content Include="Content\images\nav_bg.jpg" />
+    <Content Include="Content\images\nene.png" />
+    <Content Include="Content\images\pj_tucker.png" />
+    <Content Include="Content\images\rockets.jpg" />
+    <Content Include="Content\images\russel_westbrook.png" />
+    <Content Include="Content\images\thabo_sefolosha.png" />
+    <Content Include="Content\images\tyson_chandler.png" />
+    <Content Include="Content\images\william_howard.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -166,10 +187,17 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Navigation.cshtml" />
+    <Content Include="Views\Shared\Fußbereich.cshtml" />
+    <Content Include="Views\Shop\Index.cshtml" />
+    <Content Include="Views\Home\Players.cshtml" />
+    <Content Include="Views\Home\Season.cshtml" />
+    <Content Include="Views\Shop\Registration.cshtml" />
+    <Content Include="Views\Shop\Login.cshtml" />
+    <Content Include="Views\Shared\Seitenbereich.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

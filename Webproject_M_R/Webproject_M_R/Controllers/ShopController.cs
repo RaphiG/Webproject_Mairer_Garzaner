@@ -6,20 +6,22 @@ using System.Web.Mvc;
 
 namespace Webproject_M_R.Controllers
 {
-    public class HomeController : Controller
+    public class ShopController : Controller
     {
+        // GET: Shop
         public ActionResult Index()
         {
             return View();
         }
-        public ActionResult Players()
-        {
-            return View();
-        }
-        public ActionResult Season()
+
+        public ActionResult Registration()
         {
             return View();
         }
 
+        public ActionResult Login()
+        {
+            return View();
+        }
     }
 }

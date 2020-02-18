@@ -1,1 +1,248 @@
 ﻿
+/*
+*{
+    border: 1px solid black
+}
+    */
+
+
+h2 {
+    color: #343434;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+
+    text-shadow: 0 2px white, 0 3px #777;
+}
+
+#container {
+    min-width: 800px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #242020;
+}
+
+nav a{
+    color:white;
+}
+
+
+nav {
+    height: 55px;
+}
+
+
+content {
+    min-width: 500px;
+    width: 75%;
+    float: left;
+    min-height: 500px;
+    border-right: 1px solid #000000;
+    padding: 10px;
+}
+
+aside {
+    min-width: 160px;
+    width:25%;
+    float: right;
+}
+
+h4{font-size:1.5em;}
+
+footer p{
+    padding-left: 10px;
+}
+footer {
+    height: 140px;
+    clear: both;
+    border-top: 1px solid #000000;
+    text-align: left;
+    padding: 5px 10px;
+    background-color: #333333;
+    color: lightgray;
+    padding-left: 20px;
+    line-height: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.nav_level1 {
+    font-size: 1.1em;
+}
+
+.nav_level2 {
+    font-size: 0.9em;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer li {
+    letter-spacing: 3px;
+    padding-left: 10px;
+}
+
+input {
+    border-radius: 7px;
+    height: 2.2em;
+}
+
+.errorform {
+    color: red;
+    font-size: 0.8em;
+}
+
+.banner {
+    width:100%;
+}
+
+aside h3 {
+    font-family:Cambria;
+    font-size: 35px;
+    text-shadow: 2px 2px lightgray;
+    text-align: center;
+}
+
+
+aside p {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+aside p:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+    .tg td {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        padding: 10px 5px;
+        border-style: solid;
+        border-width: 1px;
+        overflow: hidden;
+        word-break: normal;
+        border-color: black;
+    }
+
+    .tg th {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 10px 5px;
+        border-style: solid;
+        border-width: 1px;
+        overflow: hidden;
+        word-break: normal;
+        border-color: black;
+    }
+
+    .tg .tg-9bxu {
+        font-weight: bold;
+        font-size: 16px;
+        border-color: #efefef;
+        text-align: left;
+        vertical-align: top
+    }
+
+    .tg .tg-p37l {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 14px;
+        border-color: #efefef;
+        text-align: left;
+        vertical-align: top
+    }
+
+    .tg .tg-baqh {
+        text-align: center;
+        vertical-align: top
+    }
+
+    .tg .tg-vox4 {
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left;
+        vertical-align: top
+    }
+
+    .tg .tg-unl0 {
+        font-weight: bold;
+        font-size: 16px;
+        border-color: #efefef;
+        text-align: center;
+        vertical-align: top
+    }
+
+    .tg .tg-ly6r {
+        border-color: #efefef;
+        text-align: left;
+        vertical-align: top
+    }
+
+    .tg .tg-1o1v {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 14px;
+        background-color: #E5E5E5;
+        color: #000000;
+        border-color: #efefef;
+        text-align: left;
+        vertical-align: top
+    }
+
+    .tg .tg-bn4c {
+        font-weight: bold;
+        font-size: 16px;
+        background-color: #E5E5E5;
+        text-align: left;
+        vertical-align: top
+    }
+
+    .tg .tg-iqsh {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 14px;
+        background-color: #E5E5E5;
+        border-color: #efefef;
+        text-align: left;
+        vertical-align: top
+    }
+
+    .tg .tg-6qw1 {
+        background-color: #E5E5E5;
+        text-align: center;
+        vertical-align: top
+    }
+
+    .tg .tg-ga3c {
+        font-weight: bold;
+        font-size: 16px;
+        background-color: #E5E5E5;
+        text-align: left;
+        vertical-align: top
+    }
+
+    .tg .tg-ddj9 {
+        background-color: #E5E5E5;
+        color: #000000;
+        text-align: center;
+        vertical-align: top
+    }
